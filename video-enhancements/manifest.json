@@ -1,0 +1,95 @@
+{
+  "source": "dist/assets/moments.mp4",
+  "source_sha256": "ce8a9906a36b8a742d7a1b9706492f1ec27710d2c39e50e6f6c2de8ba0e5c5b8",
+  "output": "dist/assets/enhanced/moments-enhanced.mp4",
+  "output_sha256": "60c4cdb02d58bdea3704750e9f3e34eb70f1c29c17eae1f800e744bf653b8d79",
+  "audio_payload_sha256": "9d36b8e6d174a9e156d07aaf8de2e4bd23263d9853d2981f873aa0c4457cbe93",
+  "filters": "hqdn3d=0.7:0.5:1.0:0.75,eq=contrast=1.035:brightness=0.002:gamma=1.025:saturation=1.04,scale=540:960:flags=lanczos,unsharp=5:5:0.32:3:3:0",
+  "encoding_arguments": [
+    "-map",
+    "0:v:0",
+    "-map",
+    "0:a:0",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "slow",
+    "-crf",
+    "24",
+    "-maxrate",
+    "1200k",
+    "-bufsize",
+    "2400k",
+    "-pix_fmt",
+    "yuv420p",
+    "-profile:v",
+    "high",
+    "-level:v",
+    "3.1",
+    "-c:a",
+    "copy",
+    "-movflags",
+    "+faststart",
+    "-map_metadata",
+    "-1"
+  ],
+  "ffmpeg": "ffmpeg version 9.0.1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "original": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 360,
+        "height": 640,
+        "avg_frame_rate": "30/1",
+        "duration": "26.766667",
+        "nb_frames": "803"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "avg_frame_rate": "0/0",
+        "duration": "26.862630",
+        "nb_frames": "579"
+      }
+    ],
+    "format": {
+      "duration": "26.862630",
+      "size": "1646651"
+    }
+  },
+  "enhanced": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 540,
+        "height": 960,
+        "avg_frame_rate": "30/1",
+        "duration": "26.766667",
+        "nb_frames": "803"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "avg_frame_rate": "0/0",
+        "duration": "26.747937",
+        "nb_frames": "579"
+      }
+    ],
+    "format": {
+      "duration": "26.766667",
+      "size": "3966377"
+    }
+  },
+  "checks": {
+    "source_unchanged": true,
+    "audio_bitstream_unchanged": true,
+    "all_frames_preserved": true,
+    "full_decode_passed": true
+  }
+}

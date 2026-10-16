@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ecuestrianaa — Comparación de vídeo</title>
+<style>
+  *{box-sizing:border-box}body{margin:0;padding:30px 20px;background:#f5f3ec;color:#203d35;font:16px/1.6 system-ui,sans-serif}main{max-width:1000px;margin:auto}h1{font:36px Georgia,serif}h2{font-size:18px}p{max-width:720px}.videos{display:grid;grid-template-columns:1fr 1fr;gap:20px}video{display:block;width:100%;max-height:70vh;background:#111}button{padding:12px 18px;margin:8px 8px 16px 0;border:1px solid #203d35;background:#203d35;color:white;cursor:pointer;font:inherit}button:focus-visible{outline:3px solid #79866b;outline-offset:3px}@media(max-width:600px){.videos{grid-template-columns:1fr}h1{font-size:28px}}
+</style>
+<main>
+  <h1>Un instante en Ecuestrianaa</h1>
+  <p>Original y copia mejorada. Limpieza suave, color y nitidez; se conservan el encuadre, los textos y el audio. La resolución original limita el detalle recuperable.</p>
+  <button id="play" type="button">Comparar desde el inicio</button>
+  <button id="pause" type="button">Pausar ambos</button>
+  <div class="videos">
+    <section><h2>Original · 360 × 640</h2><video id="original" src="../dist/assets/moments.mp4" controls playsinline preload="metadata" muted aria-label="Vídeo original"></video></section>
+    <section><h2>Mejorado · 540 × 960</h2><video id="enhanced" src="../dist/assets/enhanced/moments-enhanced.mp4" controls playsinline preload="metadata" aria-label="Vídeo mejorado"></video></section>
+  </div>
+  <p>Al comparar, solo se escucha la copia mejorada para evitar audio duplicado.</p>
+</main>
+<script>
+  const original = document.querySelector('#original');
+  const enhanced = document.querySelector('#enhanced');
+  document.querySelector('#play').addEventListener('click', () => {
+    original.currentTime = enhanced.currentTime = 0;
+    Promise.all([original.play(), enhanced.play()]).catch(() => {});
+  });
+  document.querySelector('#pause').addEventListener('click', () => {
+    original.pause(); enhanced.pause();
+  });
+</script>
+</html>

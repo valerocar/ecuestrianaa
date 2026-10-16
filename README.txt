@@ -27,6 +27,9 @@ El formulario abre WhatsApp con un mensaje preparado: el visitante decide
 si lo envía. No se almacenan datos. También hay enlaces de contacto directo.
 La galería admite flechas del teclado y Escape para cerrar.
 El vídeo se reproduce solo al pulsar y se detiene al cerrar.
+El reproductor usa una copia con limpieza suave, color y nitidez mejorados,
+optimizada para la web. El original dist/assets/moments.mp4 sigue intacto.
+Proceso reproducible, comparación y comprobaciones: video-enhancements/.
 
 Publicación en GitHub Pages:
   Repositorio: https://github.com/valerocar/ecuestrianaa

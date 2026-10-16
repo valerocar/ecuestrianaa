@@ -48,3 +48,16 @@ GitHub migration, 2026-10-16:
 - origin uses the existing GitHub SSH authentication.
 - GitHub Pages workflow publishes only dist/ from main.
 - GitHub Pages replaces the previously blocked Sites publication path.
+
+Video update, 2026-10-16:
+- The site's 27-second video now uses a separate enhanced MP4 copy.
+- Gentle denoising, color correction and sharpening; 540x960 at 30 fps.
+- Approximately 4 MB with fast-start metadata and preload=none.
+- All 803 video frames and the original encoded AAC audio are preserved.
+- Original source export, original site video and original photos verified
+  unchanged by SHA-256. Full enhanced-video decode passed.
+- Desktop and emulated phone portrait/landscape checks: playback succeeds,
+  player and close control fit, no page overflow, closing pauses playback.
+- Exact processing script, checksums and comparison in video-enhancements/.
+- Enhancement is conservative; missing detail in the 360x640 source remains
+  limited. Unused source clips have not been changed.
