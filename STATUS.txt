@@ -42,3 +42,9 @@ Phone layout update, 2026-10-16:
   gallery navigation and portrait/landscape dialog-control visibility.
 - Tests used browser viewport emulation; no physical iOS/Android device test.
 - Image references, JavaScript syntax and original-file checksums passed.
+
+GitHub migration, 2026-10-16:
+- Public repository created: https://github.com/valerocar/ecuestrianaa
+- origin uses the existing GitHub SSH authentication.
+- GitHub Pages workflow publishes only dist/ from main.
+- GitHub Pages replaces the previously blocked Sites publication path.

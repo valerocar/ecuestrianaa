@@ -28,10 +28,18 @@ si lo envía. No se almacenan datos. También hay enlaces de contacto directo.
 La galería admite flechas del teclado y Escape para cerrar.
 El vídeo se reproduce solo al pulsar y se detiene al cerrar.
 
-La identidad de Sites se conserva en .openai/hosting.json.
-La publicación está pendiente: el entorno no pudo resolver el servidor de
-Git de Sites. La vista previa local fue verificada en Chrome con tamaños de teléfono,
-tablet y escritorio. El sitio se puede abrir con el servidor local.
+Publicación en GitHub Pages:
+  Repositorio: https://github.com/valerocar/ecuestrianaa
+  Sitio: https://valerocar.github.io/ecuestrianaa/
+  .github/workflows/pages.yml publica dist/ al cambiar el sitio en main.
+  También se puede ejecutar manualmente desde GitHub Actions.
+  En Settings > Pages, la fuente de publicación debe ser GitHub Actions.
+  No se necesita compilar ni instalar dependencias.
+
+La identidad previa de Sites se conserva en .openai/hosting.json como
+referencia; la publicación del sitio se realiza ahora con GitHub Pages.
+La vista previa local fue verificada en tamaños de teléfono, tablet y
+escritorio. Los originales de las fotografías siguen en el repositorio.
 
 Diseño para teléfonos:
   Cabecera fija, menú compacto, texto legible y controles amplios.
