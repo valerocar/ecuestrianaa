@@ -1,0 +1,102 @@
+{
+  "hero": {
+    "originalBytes": 510493,
+    "variants": [
+      {
+        "width": 480,
+        "file": "assets/enhanced/responsive/hero-480.webp",
+        "bytes": 83742
+      },
+      {
+        "width": 800,
+        "file": "assets/enhanced/responsive/hero-800.webp",
+        "bytes": 165958
+      },
+      {
+        "width": 1086,
+        "file": "assets/enhanced/responsive/hero-1086.webp",
+        "bytes": 258190
+      }
+    ]
+  },
+  "training": {
+    "originalBytes": 504673,
+    "variants": [
+      {
+        "width": 480,
+        "file": "assets/enhanced/responsive/training-480.webp",
+        "bytes": 56018
+      },
+      {
+        "width": 800,
+        "file": "assets/enhanced/responsive/training-800.webp",
+        "bytes": 133512
+      },
+      {
+        "width": 1254,
+        "file": "assets/enhanced/responsive/training-1254.webp",
+        "bytes": 298624
+      }
+    ]
+  },
+  "jumping": {
+    "originalBytes": 281086,
+    "variants": [
+      {
+        "width": 480,
+        "file": "assets/enhanced/responsive/jumping-480.webp",
+        "bytes": 34096
+      },
+      {
+        "width": 800,
+        "file": "assets/enhanced/responsive/jumping-800.webp",
+        "bytes": 64882
+      },
+      {
+        "width": 1379,
+        "file": "assets/enhanced/responsive/jumping-1379.webp",
+        "bytes": 126596
+      }
+    ]
+  },
+  "community": {
+    "originalBytes": 560912,
+    "variants": [
+      {
+        "width": 480,
+        "file": "assets/enhanced/responsive/community-480.webp",
+        "bytes": 116190
+      },
+      {
+        "width": 800,
+        "file": "assets/enhanced/responsive/community-800.webp",
+        "bytes": 230238
+      },
+      {
+        "width": 940,
+        "file": "assets/enhanced/responsive/community-940.webp",
+        "bytes": 306250
+      }
+    ]
+  },
+  "connection": {
+    "originalBytes": 475772,
+    "variants": [
+      {
+        "width": 480,
+        "file": "assets/enhanced/responsive/connection-480.webp",
+        "bytes": 94096
+      },
+      {
+        "width": 800,
+        "file": "assets/enhanced/responsive/connection-800.webp",
+        "bytes": 180268
+      },
+      {
+        "width": 941,
+        "file": "assets/enhanced/responsive/connection-941.webp",
+        "bytes": 239728
+      }
+    ]
+  }
+}

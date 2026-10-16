@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "original": "../dist/assets/hero.jpg",
+    "web": "../dist/assets/enhanced/hero-enhanced.jpg",
+    "master": "masters/hero-enhanced.png",
+    "width": 1086,
+    "height": 1448
+  },
+  "training": {
+    "original": "../dist/assets/training.jpg",
+    "web": "../dist/assets/enhanced/training-enhanced.jpg",
+    "master": "masters/training-enhanced.png",
+    "width": 1254,
+    "height": 1254
+  },
+  "jumping": {
+    "original": "../dist/assets/jumping.jpg",
+    "web": "../dist/assets/enhanced/jumping-enhanced.jpg",
+    "master": "masters/jumping-enhanced.png",
+    "width": 1379,
+    "height": 1141
+  },
+  "community": {
+    "original": "../dist/assets/community.jpg",
+    "web": "../dist/assets/enhanced/community-enhanced.jpg",
+    "master": "masters/community-enhanced.png",
+    "width": 940,
+    "height": 1672
+  },
+  "connection": {
+    "original": "../dist/assets/connection.jpg",
+    "web": "../dist/assets/enhanced/connection-enhanced.jpg",
+    "master": "masters/connection-enhanced.png",
+    "width": 941,
+    "height": 1672
+  }
+}

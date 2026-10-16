@@ -1,0 +1,44 @@
+Completed 2026-10-16
+
+Spanish presentation website implemented in dist/ with the supplied photos
+and video, responsive navigation, image gallery, video modal, WhatsApp
+message preparation, FAQs, accessible labels, and reduced-motion support.
+
+Verified in Chrome on desktop and at 390px and 320px mobile viewports:
+- Gallery opens, next-photo navigation works, Escape closes it.
+- Video plays and pauses when its modal closes.
+- Mobile navigation opens and closes after an anchor selection.
+- Contact fields and interest selector work; FAQ expands.
+- No horizontal overflow at 320px and no missing images.
+- JavaScript syntax, internal anchors and local asset paths pass checks.
+- WhatsApp message construction tested without sending a message.
+
+Publication is not complete. Existing Site identity remains:
+appgprj_6ad267cbdfb881919d3a0dedfd7fcd93
+Audience: owner only. No saved or deployed version existed on recovery.
+The supported site-workflow helper failed twice at Git source opening:
+Could not resolve host: git.chatgpt-team.site
+A separate curl request reached the endpoint; the workflow's own Git
+process still could not resolve it. Resume the existing Site when the
+source synchronization environment is available; do not register a new Site.
+
+Photo update, 2026-10-16: five AI-enhanced photo copies now used by the
+local website. Originals and original exports verified unchanged using SHA-256.
+Full-quality PNGs, exact prompts and review page: photo-enhancements/.
+Online publication remains pending the source-upload connection.
+Browser verification: enhanced images loaded successfully; the full-size
+gallery uses enhanced copies. A versioned script URL refreshes cached gallery
+references. New archive: ../Ecuestrianaa-website-enhanced.zip.
+
+Phone layout update, 2026-10-16:
+- Readable mobile text, 16px form inputs, 48px dialog controls.
+- Sticky mobile header and safe-area-aware WhatsApp shortcut.
+- Horizontally scrolling photo gallery with scroll snapping; touch swipe
+  handlers added to the photo viewer.
+- Responsive WebP variants reduce image transfer sizes.
+- Browser viewport checks passed at 320x568, 375x667, 390x844, 430x932,
+  768x1024, 844x390 and 1440x900, with no page overflow.
+- Verified mobile menu close-on-navigation, form-focus shortcut hiding,
+  gallery navigation and portrait/landscape dialog-control visibility.
+- Tests used browser viewport emulation; no physical iOS/Android device test.
+- Image references, JavaScript syntax and original-file checksums passed.
