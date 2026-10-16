@@ -61,3 +61,10 @@ Video update, 2026-10-16:
 - Exact processing script, checksums and comparison in video-enhancements/.
 - Enhancement is conservative; missing detail in the 360x640 source remains
   limited. Unused source clips have not been changed.
+
+Brand-name correction, 2026-10-16:
+- Correct name: Ecuestriana (one final a). Updated website copy, wordmarks,
+  page/social metadata, accessible labels, video/gallery headings and
+  WhatsApp message text, plus current documentation and review titles.
+- Existing repository/Pages URLs and the supplied Instagram account handle
+  remain valid service identifiers; historical source records are unchanged.

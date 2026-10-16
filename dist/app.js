@@ -112,7 +112,7 @@ contactForm.addEventListener('submit', event => {
   event.preventDefault();
   const name = document.querySelector('#visitor-name').value.trim();
   const interest = document.querySelector('#visitor-interest').value;
-  const message = `Hola, Ecuestrianaa.${name ? ` Soy ${name}.` : ''} Me gustaría ${interest}. ¿Me pueden compartir información?`;
+  const message = `Hola, Ecuestriana.${name ? ` Soy ${name}.` : ''} Me gustaría ${interest}. ¿Me pueden compartir información?`;
   window.open(`https://wa.me/523334431233?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
   document.querySelector('#contact-status').textContent = 'Abriendo WhatsApp con tu mensaje. También puedes usar el enlace de contacto directo.';
 });

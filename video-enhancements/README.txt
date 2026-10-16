@@ -1,4 +1,4 @@
-ECUESTRIANAA — VIDEO ENHANCEMENT
+ECUESTRIANA — VIDEO ENHANCEMENT
 
 The website uses one 27-second video. Its original 360 x 640 MP4 remains
 untouched at dist/assets/moments.mp4. The original source export outside

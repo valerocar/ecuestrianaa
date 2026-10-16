@@ -1,4 +1,4 @@
-ECUESTRIANAA
+ECUESTRIANA
 
 Sitio estático en español para la escuela de equitación de Zona Real, Guadalajara.
 
